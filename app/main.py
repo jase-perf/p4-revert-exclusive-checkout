@@ -23,7 +23,7 @@ def main(*paths) -> None:
     exclusive_files = []
     opened_files = []
     for path in paths:
-        opened_files += p4.run_opened("-a", path)
+        opened_files = p4.run_opened("-a", path)
         exclusive_files += [
             file for file in opened_files if is_exclusive_checkout(file)
         ]

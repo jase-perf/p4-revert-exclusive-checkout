@@ -1,2 +1,2 @@
 #!/bin/zsh
-pyinstaller --onefile -n "p4-revert-exclusive-checkout (macOS arm64)" --distpath ./bin ./app/main.py
+pyinstaller --onefile -n "p4-revert-exclusive-checkout" --distpath ./bin/macOS_arm64 ./app/main.py

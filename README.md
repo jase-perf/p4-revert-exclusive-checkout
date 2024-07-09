@@ -32,6 +32,9 @@ The instructions are the same for both, except for the name of the tool and the 
 9. Check the box for `Refresh Helix P4V/Admin after completion`
 10. Click **OK** to save the tool
 
+Note for MacOS: You may need to set execute permissions on the file in order to
+run it.
+
 #### P4V Example
 ![Custom Tool Dialog Example - P4V](images/Tool_P4V.png)
 
